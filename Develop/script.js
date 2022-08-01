@@ -1,5 +1,22 @@
 // Assignment code here
 
+// Password Variable:
+var password = "";
+
+// Possible Password values
+var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerChars = "abcdefghijklmnopqrstuvwxyz";
+var numberChars = "0123456789";
+var specialChars = "!@#$%^&*()_+";
+
+
+//Ask for Password Length
+
+
+
+
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
