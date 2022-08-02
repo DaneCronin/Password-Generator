@@ -55,17 +55,21 @@ var generateRandomPassword = () => {
   if (confirmLowerChars) randomPassword += possibleValues.lowerChars;
   if (confirmNumberChars) randomPassword += possibleValues.numberChars;
   if (confirmSpecialChars) randomPassword += possibleValues.specialChars;
-  
+  return randomPassword;
 }
 
+var password = "";
+var chars = generateRandomPassword();
 
 
 // Create a For Loop to iterate through the array of possibleValues object
 for (i = 0; i < passwordLength; i++) {
   // Use a math.random object to randomize the value selections from the possibleValues object and return the result.
-
+var randomPassword = 
+password += chars.substring(Math.floor(Math.random() * chars.length));
 }
 
+return password;
 
 
 
