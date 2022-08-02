@@ -34,36 +34,40 @@ var confirmLowerChars = window.confirm("Would you like to use LowerCase Characte
 // include number values?
 var confirmNumberChars = window.confirm("Would you like to use Num Characters?");
 // include special values?
-var confrimSpecialChars = window.confirm("Would you like to use Special Characters?");
+var confirmSpecialChars = window.confirm("Would you like to use Special Characters?");
 
 
 
-// Possible Password values
-var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var lowerChars = "abcdefghijklmnopqrstuvwxyz";
-var numberChars = "0123456789";
-var specialChars = "!@#$%^&*()_+";
+// // Possible Password values
+// var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// var lowerChars = "abcdefghijklmnopqrstuvwxyz";
+// var numberChars = "0123456789";
+// var specialChars = "!@#$%^&*()_+";
 
-// Add possible password variables into an array object possibleValues
+// Add possible password values into an object array "possibleValues"
 
 var possibleValues = {
   upperChars: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   lowerChars: "abcdefghijklmnopqrstuvwxyz",
   numberChars: "0123456789",
-  specialChars: "!@#$%^&*()_+",
+  specialChars: "!@#$%^&*()_+"
 };
 
-// Add function to add possible password values to possibleValues object
+// Add function to add possible password values based on user input to possibleValues object
 var generateRandomPassword = () => {
   var randomPassword = "";
+  
 }
 
 
 
 // Create a For Loop to iterate through the array of possibleValues object
+for (i = 0; i < passwordLength; i++) {
+  // Use a math.random object to randomize the value selections from the possibleValues object and return the result.
+
+}
 
 
-// Use a math.random object to randomize the value selections from the possibleValues object and return the result.
 
 
 
