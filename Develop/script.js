@@ -10,8 +10,14 @@ while (passwordLength === "" || passwordLength === null ) {
 
 console.log(passwordLength);
 
-
-// Create a loop to prompt user for length of password until a correct value is entered
+// Create an If/else loop to prompt user for length of password until a correct value is entered
+if (passwordLength < 8) {
+  alert("Your password must be between 8 and 128 characters. Please try again");
+  
+} else if (passwordLength > 128) {
+  alert("Your password must be between 8 and 128 characters. Please try again");
+  
+}
 
 
 // Ask user what types of characters they would like to use in their password
