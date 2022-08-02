@@ -18,11 +18,11 @@ while (passwordLength === "" || passwordLength === null ) {
 if (passwordLength < 8) {
   alert("Your password must be between 8 and 128 characters. Please try again");
   //add a return function to go back to original prompt.
-  //return generatePassword();
+  return generatePassword();
   
 } else if (passwordLength > 128) {
   alert("Your password must be between 8 and 128 characters. Please try again");
-  //return generatePassword();
+  return generatePassword();
 }
 
 
@@ -65,7 +65,7 @@ var chars = generateRandomPassword();
 // Create a For Loop to iterate through the array of possibleValues object
 for (i = 0; i < passwordLength; i++) {
   // Use a math.random object to randomize the value selections from the possibleValues object and return the result.
-var randomPassword = 
+
 password += chars.substring(Math.floor(Math.random() * chars.length));
 }
 
