@@ -2,7 +2,7 @@
 
 
 // Create function to generate a random password using named "generatePassword" function
-//var generatePassword = function () {
+var generatePassword = function () {
 
 // Password Length Variable:
 var passwordLength= "";
@@ -74,7 +74,7 @@ return password;
 
 
 
-//}; // End generatePassword Function
+}; // End generatePassword Function
 
 
 // Get references to the #generate element
