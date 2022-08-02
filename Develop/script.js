@@ -38,12 +38,6 @@ var confirmSpecialChars = window.confirm("Would you like to use Special Characte
 
 
 
-// // Possible Password values
-// var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-// var lowerChars = "abcdefghijklmnopqrstuvwxyz";
-// var numberChars = "0123456789";
-// var specialChars = "!@#$%^&*()_+";
-
 // Add possible password values into an object array "possibleValues"
 
 var possibleValues = {
@@ -56,6 +50,11 @@ var possibleValues = {
 // Add function to add possible password values based on user input to possibleValues object
 var generateRandomPassword = () => {
   var randomPassword = "";
+  // check each condition if user chose to add to possible values and add to the randomPassword variable if true
+  if (confirmUpperChars) randomPassword += possibleValues.upperChars;
+  if (confirmLowerChars) randomPassword += possibleValues.lowerChars;
+  if (confirmNumberChars) randomPassword += possibleValues.numberChars;
+  if (confirmSpecialChars) randomPassword += possibleValues.specialChars;
   
 }
 
