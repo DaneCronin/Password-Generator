@@ -23,10 +23,19 @@ if (passwordLength < 8) {
 } else if (passwordLength > 128) {
   alert("Your password must be between 8 and 128 characters. Please try again");
   //return generatePassword();
-};
+}
 
 
 // Ask user what types of characters they would like to use in their password
+// include upper case values?
+var confirmUpperChars = window.confirm("Would you like to use UpperCase Characters?");
+// include lower case values?
+var confirmLowerChars = window.confirm("Would you like to use LowerCase Characters?");
+// include number values?
+var confirmNumberChars = window.confirm("Would you like to use Numeric Characters?");
+// include special values?
+var confrimSpecialChars = window.confirm("Would you like to use Special Characters?");
+
 
 
 // Possible Password values
