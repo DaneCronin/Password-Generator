@@ -2,7 +2,7 @@
 
 
 // Create function to generate a random password using named "generatePassword" function
-var generatePassword = function () {
+//var generatePassword = function () {
 
 // Password Length Variable:
 var passwordLength= "";
@@ -32,7 +32,7 @@ var confirmUpperChars = window.confirm("Would you like to use UpperCase Characte
 // include lower case values?
 var confirmLowerChars = window.confirm("Would you like to use LowerCase Characters?");
 // include number values?
-var confirmNumberChars = window.confirm("Would you like to use Numeric Characters?");
+var confirmNumberChars = window.confirm("Would you like to use Num Characters?");
 // include special values?
 var confrimSpecialChars = window.confirm("Would you like to use Special Characters?");
 
@@ -67,7 +67,7 @@ var generateRandomPassword = () => {
 
 
 
-}; // End generatePassword Function
+//}; // End generatePassword Function
 
 
 // Get references to the #generate element
