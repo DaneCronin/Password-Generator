@@ -4,7 +4,11 @@
 var passwordLength= "";
 
 // Create a user prompt to ask for length of password that must be >8 and <128 characters
+while (passwordLength === "" || passwordLength === null ) {
+  passwordLength = prompt("How long would you like your password to be? Must be at least 8 characters");
+};
 
+console.log(passwordLength);
 
 
 // Create a loop to prompt user for length of password until a correct value is entered
@@ -28,6 +32,9 @@ var possibleValues = {
 };
 
 // Add function to add possible password values to possibleValues object
+var generateRandomPassword = () => {
+  var randomPassword = "";
+}
 
 
 
