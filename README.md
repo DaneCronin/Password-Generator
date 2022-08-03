@@ -14,3 +14,4 @@ When password is generated, then password is either displayed in an alert or wri
 
 https://danecronin.github.io/Password-Generator/
 
+![image](https://user-images.githubusercontent.com/107944830/182498908-b60307f2-54d9-47a0-bbbe-54ea0d5fe261.png)
