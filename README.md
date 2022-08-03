@@ -1,4 +1,4 @@
-# Password Generator Starter Code
+# Use Password Generator Starter Code with HTML and CSS
 
 ## Create a Password Generator app that prompts and responds to user-input with the criteria to include in the password.
 
@@ -9,4 +9,8 @@ Prompt user for what type of characters to use in the password, user must answer
 Must validate user input and at least one character type should be selected.
 
 When password is generated, then password is either displayed in an alert or written on page.
+
+## Website
+
+https://danecronin.github.io/Password-Generator/
 
